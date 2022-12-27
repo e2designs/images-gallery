@@ -15,10 +15,12 @@ const App = () => {
       .then((result) => result.json())
       .then((data) => {
         console.log(data);
+
       })
       .catch((err) => {
         console.log(err);
       })
+    setWord('');
   }
 
   return (
