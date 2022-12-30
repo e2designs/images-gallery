@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'react-bootstrap';
+import CircularProgressWithLabel from './CircularProgressWithLabel';
 
 const Welcome = () => (
   <Jumbotron>
@@ -13,6 +14,7 @@ const Welcome = () => (
         Learn more
       </Button>
     </p>
+    <CircularProgressWithLabel value={100} />
   </Jumbotron>
 );
 
